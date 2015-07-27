@@ -84,6 +84,7 @@ There are three ways in which the Neutron plugin could access MidoNet:
  MIDONET_CLIENT=midonet.neutron.client.api.MidonetApiClient
  MIDONET_USE_ZOOM=False
 
+
 2. MidoNet API with ZOOM (transitional version)::
 
  MIDONET_PLUGIN=midonet.neutron.plugin_v2.MidonetPluginV2
