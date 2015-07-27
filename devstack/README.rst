@@ -80,6 +80,7 @@ There are three ways in which the Neutron plugin could access MidoNet:
 
 1. MidoNet API with DataClient (legacy version)::
 
+
  MIDONET_PLUGIN=neutron.plugins.midonet.plugin.MidonetPluginV2
  MIDONET_CLIENT=midonet.neutron.client.api.MidonetApiClient
  MIDONET_USE_ZOOM=False
